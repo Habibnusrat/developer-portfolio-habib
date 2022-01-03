@@ -3,4 +3,20 @@ body{
 }
 h1{
     font-size: 50px;
+    
+}
+.orange-color{
+    color: orange;
+}
+.header{
+    display: flex;
+}
+
+.hulf-width{
+    width: 50%;
+    padding: 5%;
+}
+.hulf-width img{
+  
+    width: 80%;
 }
