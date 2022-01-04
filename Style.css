@@ -9,8 +9,9 @@ h1{
 .orange-color{
     color: orange;
 }
-.header{
+section{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .hulf-width{
@@ -30,7 +31,12 @@ h1{
     font-weight: 700;
 }
 .header{
-    background-image: url(/images/top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
    
+}
+.middel{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+   background-position: right;
 }
