@@ -6,17 +6,24 @@ h1{
     font-size: 50px;
     
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flx{
     display: flex;
+  
+}
+ section{
     margin-bottom: 100px;
 }
 
 .hulf-width{
     width: 50%;
-    padding: 5%;
+    padding: 0 2%;
+
 }
 .hulf-width img{
   
@@ -39,4 +46,36 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
    background-position: right;
+
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    text-shadow: 10px 15px 30px green;
+    width: 35%;
+    margin: 0 5%;
+    padding: 20px;
+    border-radius: 20px;
+    border-left: 10px solid;
+
+}
+.experinc-aria{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    
+
+}
+#baby-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby-2{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
